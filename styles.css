@@ -1,30 +1,43 @@
-h1 {
-  background-color: yellow;
-  color: rgb(241, 7, 7);
+div.header {
   text-align: center;
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  font-weight: 800;
-  font-size: 75px;
-}
-
-ul {
-  background-color:yellow;
-  color: rgb(255, 0, 0);
-  text-align: center;
-  font-size: 50px;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color:#ff5558;
+  font-size: 25px;
+  color: #fef8ed;
+  margin-left: 650px;
+  margin-right: 650px;
+  padding: 3px;
+  margin-bottom: 15px;
+  border: 10px solid #ffed61;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
 }
 
 div.container {
-  text-align: center;
+  text-align: justify;  
+  font-size:40px;
+  background-color:#ff5558;
+  margin-left: 650px;
+  margin-right: 650px;
+  padding: 2px;
+  border: 10px solid #ffed61;
+
+  
+  
+}
+a {
+  color: #fef8ed;
+  text-decoration: none;
+   
 }
 
-ul.recipes {
-  display: inline-block;
-  text-align: left;
+a:hover {
+  color:#ffee7c; 
+  text-decoration:none; 
+  cursor:pointer;
+  
 }
 
-
-#link-color {
-  color: rgb(0, 0, 0);
+ul {
+  list-style-type: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
