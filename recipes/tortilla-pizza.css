@@ -1,0 +1,33 @@
+.color {
+  background-color: yellow;
+  color: red;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 400px;
+}
+
+p.center-desc {
+  text-align: center;
+  font-size: 20px;
+}
+
+.center-list {
+  display: inline-block;
+  text-align: left;
+  font-size: 20px;
+}
+ol.center-list {
+  display: block;
+  text-align: left;
+  font-size: 20px;
+}
+.list-containers {
+  text-align: center;
+}
