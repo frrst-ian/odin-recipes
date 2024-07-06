@@ -75,6 +75,8 @@ body {
   font-size: 1.1rem;
   color: rgba(4, 4, 4, 0.844);
   font-family: "montserrat_alternatesregular", sans-serif;
+  line-height: 120%;
+
 }
 
 div.para {

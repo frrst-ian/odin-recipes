@@ -1,35 +1,131 @@
-.color {
-  background-color: yellow;
-  color: red;
+/* css reset */
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-h1,
-h2 {
+* {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "norwesterregular";
+  src: url("fonts/norwester-webfont.woff2") format("woff2"),
+    url("fonts/norwester-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "abhaya_libreregular";
+  src: url("fonts/abhayalibre-regular-webfont.woff2") format("woff2"),
+    url("fonts/abhayalibre-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "montserrat_alternatesregular";
+  src: url("fonts/montserratalternates-regular-webfont.woff2") format("woff2"),
+    url("fonts/montserratalternates-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  height: 1.5;
+  display: flex;
+  flex-direction: column;
+}
+
+.header h1 {
   text-align: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 40px 40px 20px 40px;
+  font-family: "norwesterregular", sans-serif;
+  color: #f43f5e;
+  font-size: 2.1rem;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width:auto;
-  height: 500px;
+.header .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-div.container {
+.header .image img {
+  height: 300px;
+  width: 600px;
+  border-left: 12px solid #e11d48;
+  border-radius: 20px;
+}
+
+.title {
   text-align: center;
+  font-size: 1.8rem;
+  color: #ff1c42;
+  margin: 12px;
+  font-family: "abhaya_libreregular", sans-serif;
 }
 
-.center-list {
-  display: inline-block;
-  text-align: left;
-  font-size: 20px;
+.para p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  font-size: 1.1rem;
+  color: rgba(4, 4, 4, 0.844);
+  font-family: "montserrat_alternatesregular", sans-serif;
 }
 
-.center-text {
-    text-align: center;
+div.para {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 8px 8px 8px;
+
+  text-align: justify;
 }
-#size {
-    font-size: 20px;
+
+div.ingredient-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  width: 650px;
+}
+
+ul li {
+  text-align: justify;
+  font-family: "montserrat_alternatesregular", sans-serif;
+  font-size: 1.1rem;
+  margin: 12px;
+  color: rgba(20, 20, 20, 0.844);
+}
+
+div.steps-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ol {
+  width: 630px;
+  margin-bottom: 100px;
+}
+
+ol li {
+  font-size: 1.1rem;
+  color: rgba(20, 20, 20, 0.844);
+  font-family: "montserrat_alternatesregular", sans-serif;
+  text-align: justify;
+  margin: 12px;
+}
+
+#para {
+  line-height: 120%;
+  margin-bottom: 20px;
 }
